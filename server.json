@@ -1,0 +1,38 @@
+{
+	"server": [
+        {
+			"_url": "http://speedtest3.entelchile.net:8080/speedtest/upload.php",
+			"_lat": "-23.6509",
+			"_lon": "-70.3975",
+			"_name": "Antofagasta",
+			"_country": "CL",
+			"_cc": "CL",
+			"_sponsor": "Entel",
+			"_id": "18166",
+			"_host": "speedtest3.entelchile.net:8080"
+        },
+        {
+			"_url": "http://speedtest-netgauge.movistar.cl/mini/speedtest/upload.php",
+			"_lat": "-33.4378",
+			"_lon": "-70.6503",
+			"_name": "Santiago",
+			"_country": "Chile",
+			"_cc": "CL",
+			"_sponsor": "Telefonica Chile",
+			"_id": "939",
+			"_url2": "http://speedtest-netgauge.movistarplay.cl/mini/speedtest/upload.php",
+			"_host": "speedtest-netgauge.movistar.cl:8080"
+        },
+        {
+			"_url": "http://telsur.grupogtd.com:5060/speedtest/upload.php",
+			"_lat": "-33.4378",
+			"_lon": "-70.6503",
+			"_name": "Valdivia",
+			"_country": "Chile",
+			"_cc": "CL",
+			"_sponsor": "Grupo GTD",
+			"_id": "17307",
+			"_host": "telsur.grupogtd.com:8080"
+        },
+    ]
+}

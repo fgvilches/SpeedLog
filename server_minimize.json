@@ -1,0 +1,5 @@
+{
+    "server": [        
+        {"_url":"http://speedtest3.entelchile.net:8080/speedtest/upload.php","_lat":"-23.6509","_lon":"-70.3975","_name":"Antofagasta","_country":"CL","_cc":"CL","_sponsor":"Entel","_id":"18166","_host":"speedtest3.entelchile.net:8080","_url2":""}
+    ]
+}
