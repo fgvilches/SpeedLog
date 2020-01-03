@@ -7,11 +7,11 @@ import traceback
 
 from optparse import OptionParser
 print("===========================================================")
-print("SPEEDLOG - SIBUMESA V.0.1 - Felipe Gonzalez")
+print("SPEEDLOG V.0.2 - Felipe Gonzalez")
 print("===========================================================")
 print("INICIALIZANDO PRUEBAS Y CSV")
 print("---------------------------")
-print("UTILZIANDO SERVIDORES DE ENTEL CHILE")
+print("UTILIZANDO SERVIDORES DE ISP ENTEL CHILE")
 print("===========================================================")
 start_time = time.time()
 fecha = time.strftime("%x")
@@ -38,8 +38,9 @@ if options.test_list == 'minimize':
 elif options.test_list == 'full':
     filename = 'server.json'
 else:
-    print("Invalid Argument")
+    print("Argumento Invalido")
     sys.exit(0)
+
 namefile = 'results_'+ fecha + '.csv'
 file = open(os.path.abspath(os.path.join(os.path.dirname(sys.argv[0]), namefile)), 'w', newline='')
 with file:
@@ -83,7 +84,7 @@ while True:
                     elif options.test_type == 'single':
                         down ,up ,ping = speed_test_single(server_to_test)
                     else:
-                        raise Exception('Invalid Argument')
+                        raise Exception('Argumento Invalido')
                 except Exception:
                     traceback.print_exc() 
                 result_str = f'{d["_id"]}_{d["_country"]}_{d["_name"]}_{d["_sponsor"]}_{round(down/1000000, 2)} Mbps_{round(up/1000000,2)} Mbps_{round(ping,2)} ms_{round(time.time() - s_time, 2)} Seg_{hora_actual}'
