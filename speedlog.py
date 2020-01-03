@@ -96,5 +96,5 @@ while True:
         hora_actual = time.strftime("%H:%M:%S")
         hora_split = hora_actual.split(':')
         hora_1= hora_split[1]
-        print(f'Tiempo de ejecucion: {time.time() - start_time}')
+        print('Tiempo de ejecucion: {time.time() - start_time}')
         print("Esperando proxima prueba..")
