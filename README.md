@@ -24,8 +24,11 @@ Thanks to the use of the time library, a new file is generated every day.
 
 This is the format of the results csv file:
 <div align="left">
+  <br>
   <img src="/Screenshots/SS2.PNG" alt="Line" width="70%">
+  </br>
 </div>
+
 
 The tests are performed every 15 minutes, you can modify this in the following lines
 <div align="left">
