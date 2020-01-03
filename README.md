@@ -19,6 +19,7 @@ Modify the type of test you are gonna realize (multi or single) and the json fil
 
 ### Results
 The results csv are obtained in this format "results_+ date + .csv".
+
 Thanks to the use of the time library, a new file is generated every day.
 
 This is the format of the results csv file:
