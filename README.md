@@ -1,5 +1,6 @@
-![Twitter Follow](https://img.shields.io/twitter/follow/fgvilches?style=social)
-![GitHub followers](https://img.shields.io/github/followers/fgvilches?style=social)
+<a href="https://twitter.com/fgvilches"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/fgvilches?style=social"></a>
+<a href="https://github.com/fgvilches"><img alt="GitHub followers" src="https://img.shields.io/github/followers/fgvilches?style=social"></a>
+
 # SpeedLog
 Simple code to make Speed tests and save the results to csv's that i've made for a client last month.
 
